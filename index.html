@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="in1">
+        <input type="text" placeholder="input1" id="firstNumber" />
+      </div>
+      <div class="radios">
+        <input type="radio" id="add" name="group1" value="add" />
+        <label for="add">addition(+)</label> <br />
+        <input type="radio" id="sub" name="group1" value="subtract" />
+        <label for="add">subtraction(-)</label> <br />
+        <input type="radio" id="mul" name="group1" value="multiply" />
+        <label for="add">multiplication(*)</label><br />
+        <input type="radio" id="div" name="group1" value="divide" />
+        <label for="add">division(/)</label>
+      </div>
+      <div class="in2">
+        <input type="text" placeholder="input2" id="secondNumber" />
+      </div>
+      <div class="res">
+        <p id="ans"></p>
+      </div>
+      <div class="btn">
+        <input class="calc" type="button" id="calculation" value="Calculate" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

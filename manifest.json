@@ -1,0 +1,17 @@
+{
+  "name": "calci",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Js calculator"
+  },
+
+  "permissions": ["tabs", "bookmarks"]
+}
